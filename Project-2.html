@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+  , initial-scale=1.0"
+    />
+
+    <title>GirlCode</title>
+    <style>
+      h1, h2{
+        text-align: center;
+      }
+      div{
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 500px;
+        background: white;
+        border: 10px;
+      }
+      body{
+        background: skyblue;
+        
+      }
+      footer{
+        text-align: center;
+      }
+      .theme{
+        display: block;
+        margin: 20px auto;
+        padding: 10px;
+        background: black;
+        color: white;
+        border: 20px;
+        border-radius: 15px;
+      }
+      .theme:hover{
+        background: white;
+        color: black;
+        cursor: pointer;
+      }
+      .reg{
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        background: palevioletred;
+        border: 10px;
+        border-radius: 15px;
+      }
+      .more-info{
+        width: 100%;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+      }
+      .more-info:hover{
+        filter: 75%;
+        transform: scale(1.5);
+      }
+      .grid{
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+      }
+      .grid img{
+        width: 100%;
+        border-radius: 15px;
+        transition: all 200ms ease-in-out;
+
+      }
+      .grid img:hover{
+        transform: scale(2);
+
+      }
+      .dark{
+        background: black;
+        color: white;
+      }
+      .dark div{
+        background: rgb(255, 255, 255, 0.1);
+      }
+      .dark a{
+        color: plum;
+      }
+       </style>
+  </head>
+  <body class="dark">
+    <button class="theme">
+      Dark theme
+    </button>
+    <div>
+    <h1>
+      GirlCode | Heckathon
+    </h1>
+    <h2>
+      Bringing more women in the Tech world
+    </h2>
+      <a href="https://www.girlcode.co.za/about-us">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9RcSRny1Ewcvtt3-Ott1pxMumQKYymm5hGg&s" alt="" class="more-info">
+      </a>
+      <div class="grid">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0U9tjF0zvxVGleqRxz54nGF6DInlyIvnwkQ&s" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRns6fdSdQpcoCujSRV3DljF8rPFuEk503glw&s" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQcVCFyYToNBy6lm32k4YnQUAstoh8Rkw35Q&s" alt="">
+      <img src="data:image/jpeg;base64,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" alt="">
+      </div>
+      <p>
+        The hackathon is designed to spark, renew and elevate an interest in coding amongst young women, in particular those that are in University/College. <br>
+         The hackathon was created to provide young women, eager to join the software industry with an opportunity to develop some of the real-world skills they need to enter the world of work. <br>
+         Through the hackathon, we aim to raise awareness of female technical talent and foster a competitive, yet cooperative, and congenial culture for talented female techie. <br><br>
+
+The overarching theme of the GirlCode Hackathon revolves around aligning technology, innovation, and female empowerment to drive positive change within the context of the UN SDGs. <br>
+ Each participating team will delve into one specific goal, exploring creative and impactful solutions that not only address the challenges presented but also contribute to the sustainable development of their communities and beyond.
+      </p>
+      <a href="https://www.girlcode.co.za/hackathon">
+        Read more
+      </a>
+      <button class="reg">
+        Register here
+      </button>
+    </div>
+    <footer>
+      Coded by Lerato Khauta
+    </footer>
+    <script>
+      function changeTheme(){
+        let body = document.querySelector("body");
+        body.classList.toggle("dark");
+      }
+      let btn = document.querySelector(".theme");
+      btn.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
